@@ -3,6 +3,11 @@ import { ref } from 'vue';
 
 const backColor=ref("aqua");
 
+const changeBackground=()=>{
+    
+
+}
+
 </script>
 
 <template>
