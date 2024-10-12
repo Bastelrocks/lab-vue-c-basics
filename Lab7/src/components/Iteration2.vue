@@ -1,12 +1,10 @@
 <script setup>
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 const printString=ref("");
 
-const stringToLowercase=(string)=>{
-     let newString=string.toLowerCase();
-     return newString;
-}
-
+const stringToLowercase = computed(() => {
+  return printString.value.toLowerCase();
+});
 </script>
 
 <template>
